@@ -1,0 +1,11 @@
+
+CREATE DATABASE my_db;
+
+USE my_db;
+
+
+CREATE TABLE student (
+    ID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Grade FLOAT
+);
